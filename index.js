@@ -26,8 +26,9 @@ async function BuscarPokemon() {
         document.getElementById("Altura").innerHTML = "Height: " + data.height/10 + " m"
 
     } catch (error) {
+       
         document.getElementById("Nombre").innerHTML = "Pokemon not found"
-        document.getElementById("Imagen").src = "images/que.png"
+        document.getElementById("Imagen").src = "images/x.png"
 
     }
 }
