@@ -30,4 +30,4 @@ async function BuscarPokemon() {
         document.getElementById("Imagen").src = "images/que.png"
 
     }
-// }
+}
