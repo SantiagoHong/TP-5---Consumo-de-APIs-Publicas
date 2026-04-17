@@ -3,7 +3,7 @@ async function BuscarPokemon() {
 
     pokemonInfo.innerHTML = `
         <h2 id="Nombre">Buscando...</h2>
-        <img id="Imagen" src="images/que.png" alt="Imagen del Pokemon">
+        <img id="Imagen" src="images/loading.gif" alt="Imagen del Pokemon">
         <p id="Tipo"></p>
         <p id="Tipo2"></p>
         <p id="Peso"></p>
